@@ -1,0 +1,26 @@
+@import url('css/normalize.css');
+@import url('http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic');
+@import url('less/master.css');
+
+.project-logo {
+	max-height: 60px;
+	margin-bottom: 20px;
+}
+.screenshot {
+	border: solid gray 2px;
+}
+h1 {
+	font-weight: bold;
+}
+#main-menu ul li.featured a {
+	background: #00BCD4;
+}
+h2 {
+	color: #00BCD4;
+}
+.btn {
+	background: #00BCD4;
+}
+a {
+	color: #00BCD4;
+}

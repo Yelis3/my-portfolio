@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Yeliana Andrea Torres / Diseño y desarrollo web</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<meta name="author" content="Francisco Aguilera G. - http://franciscoamk.com">
+
+	<link rel="stylesheet" href="style.css" >
+</head>
+
+<body>
+
+	<header id="main-header" class="container cf">
+
+		<div class="logo-header">
+			<!-- <h1 class="logo"><img src="img/logo.png" alt="logo" width="306" height="37"></h1> -->
+			<h2 class="slogan">Diseño y Desarrollo Web</h2>
+		</div><!-- /#logo-header -->
+
+		<span class="menu-trigger"><img src="img/menu-responsive.svg" alt="Abrir menú" /></span>
+
+		<nav id="main-menu" role="navigation" class="closed">
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+				<!-- <li><a href="servicios.html">Experiencia</a></li> -->
+				<li class="featured"><a href="portafolio.html">Proyectos</a></li>
+				<!-- <li><a href="contacto.html">Contacto</a></li> -->
+			</ul>
+		</nav><!-- /#main-menu -->
+
+	</header><!-- /#main-header -->
+
+	<main id="content-area">
+
+
+		<section id="hero-container">
+
+			<article id="hero" class="container">
+				<span class="dispositivos"><img src="img/home-dispositivos.png" alt="home-dispositivos"></span>
+				<header>
+					<h2>Yeliana Andrea Torres Medina</h2>
+				</header>
+				<p>Estudiante de Ingeniería de Sistemas y Computación de la Universidad Nacional, con fortalezas en desarrollo web, dominio en varios lenguajes de programación y experiencia como diseñadora web.</p>
+				<!-- <a href="contacto.html" class="btn btn-light">Trabajemos juntos</a> -->
+				<a href="portafolio.html" class="btn">Ver proyectos</a>
+			</article>
+
+		</section><!-- /#hero-container -->
+
+
+	</main><!-- /#content-area -->
+
+
+
+
+	<footer id="main-footer">
+
+		<div id="bottom-footer" class="container cf">
+
+			<div class="copyright">
+				Copyright &copy; Yeliana Torres</a>
+			</div><!-- /.copyright -->
+
+			<nav id="footer-menu">
+				<ul>
+					<li><a href="index.html">Inicio</a></li>
+					<!-- <li><a href="servicios.html">Experiencia</a></li> -->
+					<li><a href="portafolio.html">Proyectos</a></li>
+					<!-- <li><a href="contacto.html">Contacto</a></li> -->
+				</ul>
+			</nav><!-- /#footer-menu -->
+
+		</div><!-- /#bottom-footer -->
+
+	</footer><!-- /#main-footer -->
+
+
+	<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="js/jquery.flexslider-min.js"></script>
+	<script src="js/rem.min.js"></script>
+	<script src="js/functions.js"></script>
+
+	<script>
+		jQuery('document').ready(function($){
+
+			$('.flexslider').flexslider({
+				selector: ".slides > .testimonio",
+				animation: "slide",
+				controlNav: false,
+				directionNav: true,
+				prevText: "Anterior",
+				nextText: "Siguiente",
+			});
+
+		});
+	</script>
+
+</body>
+</html>
